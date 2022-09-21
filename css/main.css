@@ -1,0 +1,30 @@
+@import url('desktop.css');
+@import url('mobile.css');
+@import url('attribution.css');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+:root{
+    --Bright-Orange: hsl(31, 77%, 52%);
+    --Dark-Cyan: hsl(184, 100%, 22%);
+    --Very-Dark-Cyan: hsl(179, 100%, 13%);
+    --Transparent-White: hsla(0, 0%, 100%, 0.75);/*(paragraphs)*/
+    --Very-Light-Gray: hsl(0, 0%, 95%);/*(background, headings, buttons)*/
+    --font700: 'Big Shoulders Display', cursive;
+    --font400: 'Lexend Deca', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    font-size: 15px;
+    flex-direction: column;
+    background-color: var(--Very-Light-Gray);
+    color: var(--Transparent-White);
+    font-family: var(--font400);
+}

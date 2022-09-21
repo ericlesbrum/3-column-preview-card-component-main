@@ -1,0 +1,76 @@
+@media (min-width:376px)
+{
+    main{
+        max-width: 1000px;
+        max-height: 500px;
+        background-color: black;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    main ul{
+        display: flex;
+        list-style: none;
+    }
+    main ul li{
+        padding: 50px 60px;
+    }
+    main ul li.Sedans{
+        background-color: var(--Bright-Orange);
+    }
+    main ul li.Sedans a{
+        color: var(--Bright-Orange);
+    }
+    main ul li.Sedans a:hover{
+        border: 1px solid var(--Very-Light-Gray);
+        background: none;
+        color: white;
+    }
+    main ul li.SUVS{
+        background-color: var(--Dark-Cyan);
+    }
+    main ul li.SUVS a{
+        color: var(--Dark-Cyan);
+    }
+    main ul li.SUVS a:hover{
+        border: 1px solid var(--Very-Light-Gray);
+        background: none;
+        color: white;
+    }
+    main ul li.Luxury{
+        background-color: var(--Very-Dark-Cyan);
+    }
+    main ul li.Luxury a{
+        color: var(--Very-Dark-Cyan);
+    }
+    main ul li.Luxury a:hover{
+        border: 1px solid var(--Very-Light-Gray);
+        background: none;
+        color: white;
+    }
+    main ul li img{
+        margin-bottom: 30px;
+    }
+    li article{
+        margin-bottom: 20px;
+    }
+    li article h1{
+        font-family: var(--font700);
+        font-size: 2.5rem;
+        color: var(--Very-Light-Gray);
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    
+    li article p{
+        line-height: 25px;
+        font-weight: 400;
+        margin-bottom: 90px;
+    }
+    li article a{
+        text-decoration: none;
+        padding: 15px 35px;
+        background-color: var(--Very-Light-Gray);
+        border-radius: 50px;
+    }
+}
